@@ -13,7 +13,7 @@ class Student {
   lateStudent() {
     this.tardies += 1;
     if (this.tardies >= 1) {
-      return `GET YOUR ASS OUT OF SCHOOL`;
+      return `You are late`;
     }
     return `${this.first} ${this.last} is late for ${this.tardies} times`;
   }

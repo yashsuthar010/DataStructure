@@ -30,6 +30,12 @@ class MaxBinaryHeap {
       idx = parentIdx;
     }
   }
+  extractMax() {
+    const max = this.values[0];
+    const end = this.values.pop();
+    this.values[0] = end;
+    return max;
+  }
 }
 
 let heap = new MaxBinaryHeap();
