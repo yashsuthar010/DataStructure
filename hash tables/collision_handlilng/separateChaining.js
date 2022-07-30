@@ -2,6 +2,7 @@
 // 1.Separate Chaning
 // 2.Linear Probing
 
+//
 class HashTable {
   constructor(size = 53) {
     this.keyMap = new Array(size);
